@@ -1,5 +1,8 @@
 package com.poe.constants;
 
+import java.util.Arrays;
+import java.util.Optional;
+
 public enum Rarity {
     NORMAL(0),
     MAGIC(1),
@@ -12,9 +15,15 @@ public enum Rarity {
     PROPHECY(8),
     RELIC(9);
 
-    public int code;
+    public int key;
 
     Rarity(int code) {
-        this.code = code;
+        this.key = code;
+    }
+
+    static Optional<Rarity> getByKey(int key) {
+        return Arrays.stream(Rarity.values())
+                .filter(rarity -> rarity.key == key)
+                .findFirst();
     }
 }
