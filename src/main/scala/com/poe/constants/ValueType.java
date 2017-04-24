@@ -17,7 +17,7 @@ public enum ValueType {
         this.key = key;
     }
 
-    static Optional<ValueType> getByKey(int key) {
+    public static Optional<ValueType> getByKey(int key) {
         return Arrays.stream(ValueType.values())
                 .filter(valueType -> valueType.key == key)
                 .findFirst();

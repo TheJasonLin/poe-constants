@@ -17,11 +17,11 @@ public enum Rarity {
 
     public int key;
 
-    Rarity(int code) {
-        this.key = code;
+    Rarity(int key) {
+        this.key = key;
     }
 
-    static Optional<Rarity> getByKey(int key) {
+    public static Optional<Rarity> getByKey(int key) {
         return Arrays.stream(Rarity.values())
                 .filter(rarity -> rarity.key == key)
                 .findFirst();
