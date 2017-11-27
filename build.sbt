@@ -1,6 +1,6 @@
 name := "poe-constants"
 
-version := "0.0.1-SNAPSHOT"
+version := "0.0.6"
 
 scalaVersion := "2.11.8"
 
