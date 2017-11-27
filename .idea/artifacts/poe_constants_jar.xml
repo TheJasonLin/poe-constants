@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="poe-constants:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/poe_constants_jar</output-path>
+    <root id="archive" name="poe-constants.jar">
+      <element id="module-output" name="poe-constants" />
+      <element id="extracted-dir" path="$USER_HOME$/.ivy2/cache/org.scalactic/scalactic_2.11/bundles/scalactic_2.11-3.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
